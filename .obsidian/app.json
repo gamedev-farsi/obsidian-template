@@ -6,5 +6,6 @@
   "alwaysUpdateLinks": true,
   "newFileLocation": "current",
   "rightToLeft": true,
-  "showRibbon": false
+  "showRibbon": false,
+  "showInlineTitle": false
 }

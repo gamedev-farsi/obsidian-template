@@ -1,0 +1,117 @@
+:root {
+	--default-font: "Vazirmatn", "Segoe UI", "Tahoma", "Arial", "Helvetica", "sans-serif";
+	--font-monospace: "Fira Code", "Droid Sans Mono", "Consolas", "Monoid", "Arial", "sans-serif";
+
+	--color-red: #e15f60;
+	--color-orange: #cfab4a;
+	--color-yellow: #cfab4a;
+	--color-green: #32d6a4;
+	--color-cyan: #2cd5dd;
+	--color-blue: #4da6e6;
+	--color-purple: #8c367c;
+	--color-pink: #d967c4;
+
+	--theme-dark-primary-background: #0d0f11;
+	--theme-dark-secondary-background: #13191e;
+
+	--theme-light-primary-background: #eaeaeb;
+	--theme-light-secondary-background: #dbdbdc;
+
+	--color-text-dark: #eaeaeb;
+	--color-text-light: #141a1f;
+
+	--accent-h: 359.54;
+
+	thead,
+	table {
+		border-bottom: 6px solid var(--color-blue);
+	}
+
+
+}
+
+.theme-dark {
+	
+	--interactive-accent: var(--color-green);
+
+	--tag-color: var(--theme-dark-primary-background);
+	--tag-color-hover: var(--color-cyan);
+	--tag-background: var(--color-purple);
+	--tag-background-hover: var(--theme-dark-secondary-background);
+
+	--link-color: var(--color-cyan);
+	--link-unresolved-color: var(--color-green);
+	--link-color-hover: var(--color-red);
+
+	--color-text: var(--color-text-dark);
+
+	--h1-color: var(--color-blue);
+	--h2-color: var(--color-green);
+	--h3-color: var(--color-cyan);
+	--h4-color: var(--color-yellow);
+	--h5-color: var(--color-red);
+	--h6-color: var(--color-purple);
+
+	--color-base-00: var(--theme-dark-primary-background);
+	--color-base-05: var(--theme-dark-primary-background);
+	--color-base-10: var(--theme-dark-secondary-background);
+	--color-base-20: var(--theme-dark-primary-background);
+	--color-base-25: var(--theme-dark-primary-background);
+	--color-base-30: var(--theme-dark-secondary-background);
+	--color-base-35: var(--color-cyan);
+	--color-base-40: var(--color-blue);
+	--color-base-50: var(--color-text);
+	--color-base-60: var(--theme-dark-secondary-background);
+	--color-base-70: var(--color-green);
+	--color-base-100: var(--color-text);
+
+	--background-secondary: var(--theme-dark-secondary-background);
+	--background-primary: var(--theme-dark-primary-background);
+
+	--text-normal: var(--color-text);
+	--titlebar-background-focused: var(--theme-dark-primary-background);
+	--titlebar-background: var(--theme-dark-secondary-background);
+}
+
+.theme-light {
+	--interactive-accent: var(--color-green);
+
+	--tag-color: var(--theme-light-primary-background);
+	--tag-color-hover: var(--color-cyan);
+	--tag-background: var(--color-blue);
+	--tag-background-hover: var(--color-text-light);
+
+	--link-color: var(--color-cyan);
+	--link-unresolved-color: var(--color-green);
+	--link-color-hover: var(--color-red);
+
+	--color-text: var(--color-text-light);
+
+	--h1-color: var(--color-blue);
+	--h2-color: var(--color-green);
+	--h3-color: var(--color-cyan);
+	--h4-color: var(--color-yellow);
+	--h5-color: var(--color-red);
+	--h6-color: var(--color-purple);
+
+
+	--color-base-00: var(--theme-light-primary-background);
+	--color-base-05: var(--theme-light-primary-background);
+	--color-base-10: var(--theme-light-secondary-background);
+	--color-base-20: var(--theme-light-primary-background);
+	--color-base-25: var(--theme-light-primary-background);
+	--color-base-30: var(--theme-light-secondary-background);
+	--color-base-35: var(--color-cyan);
+	--color-base-40: var(--color-blue);
+	--color-base-50: var(--color-text);
+	--color-base-60: var(--theme-light-secondary-background);
+	--color-base-70: var(--color-blue);
+	--color-base-100: var(--color-text);
+
+	--text-normal: var(--color-text);
+	--titlebar-background-focused: var(--theme-light-primary-background);
+	--titlebar-background: var(--theme-light-secondary-background);
+
+	--background-secondary: var(--theme-light-secondary-background);
+	--background-primary: var(--theme-light-primary-background);
+}

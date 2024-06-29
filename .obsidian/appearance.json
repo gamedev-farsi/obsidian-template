@@ -1,4 +1,5 @@
 {
   "theme": "system",
-  "textFontFamily": "Vazirmatn"
+  "textFontFamily": "Vazirmatn",
+  "cssTheme": "gamedevfarsi-obsidian-theme"
 }
