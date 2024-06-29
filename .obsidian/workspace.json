@@ -145,8 +145,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "da14788dce997ac7",
+  "active": "de4c852aa6fd7214",
   "lastOpenFiles": [
+    "_resources/logo.png",
+    "_resources/512x512.png",
     "LICENSE.md",
     "README.md",
     "_resources/Pasted image 20240627210550.png",
