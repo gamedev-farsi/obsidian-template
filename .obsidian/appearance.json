@@ -1,5 +1,8 @@
 {
   "theme": "system",
   "textFontFamily": "Vazirmatn",
-  "cssTheme": "gamedevfarsi-obsidian-theme"
+  "cssTheme": "gamedevfarsi-obsidian-theme",
+  "enabledCssSnippets": [
+    "canvas"
+  ]
 }
