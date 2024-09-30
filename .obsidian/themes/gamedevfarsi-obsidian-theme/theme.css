@@ -26,6 +26,9 @@
 	table {
 		border-bottom: 6px solid var(--color-blue);
 	}
+	.tag {
+		line-height: 3em;
+	}
 
 
 }
